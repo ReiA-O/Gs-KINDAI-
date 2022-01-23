@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../css/BlackJack.css" />
+    </head>
+    <title>BlackJack</title>
+    <body bgcolor="#66806A">
+
+        <audio src="..//audio/ちゃんちゃん♪3.mp3" id="dorow"></audio>
+        <audio src="..//audio/ドンドンパフパフ.mp3" id="win_2"></audio>
+        <audio src="..//audio/ラッパのファンファーレ.mp3" id="win_1"></audio>
+        <audio src="..//audio/呪いの旋律.mp3" id="lose"></audio>
+        <audio src="..//audio/ニュッ2.mp3" id="push"></audio>
+
+
+        <center>
+
+            <!-- ゲームタイトル(画像でもいいね) -->
+            <h1 class="title_1">BlackJack</h1>
+
+            <!-- スタートボタン -->
+            <button class="start_1">Game-Start</button>
+
+            <!-- 領域展開 -->
+            <hr class="first_line">
+
+            <!-- 相手の名前 -->
+            <h2 class="Dealer_name">Dealer</h2>
+
+            <!-- 相手の点数 -->
+            <!-- <p class="aite"></p> -->
+            <img class="aite_gazou" src="../img/dot.png" alt="">
+            
+            
+            <!-- 中心線 -->
+            <hr class="center_line">
+
+            <!-- 自分の名前 -->
+            <h2 class="Player_name">Player</h2>
+
+            <!-- 自分のカード(5枚まで) -->
+            <!-- <div class="my_card">
+                <p class="card_1"></p>
+                <p class="card_2"></p>
+                <p class="card_3"></p>
+                <p class="card_4"></p>
+                <p class="card_5"></p>
+            </div> -->
+
+            <div class="my_card_2">
+                <img class="jibun_gazou_01" src="../img/dot.png" alt="">
+                <img class="jibun_gazou_02" src="../img/dot.png" alt="">
+                <img class="jibun_gazou_03" src="../img/dot.png" alt="">
+                <img class="jibun_gazou_04" src="../img/dot.png" alt="">
+                <img class="jibun_gazou_05" src="../img/dot.png" alt="">
+                <img class="jibun_gazou_06" src="../img/dot.png" alt="">
+            </div>
+
+            <!-- 自分の合計点 -->
+            <!-- <p class="my_all_num"></p> -->
+            <img class="jibun_gazou" src="../img/dot.png" alt="">
+
+            <!-- ヒットスタンド -->
+            <div class="hit_stand">
+                <button class="my_hit">Hit</button>
+                <button class="my_stand">Stand</button>
+            </div>
+
+            <!-- ボトムライン -->
+            <hr class="end_line">
+
+
+            <img class="gazou" src="../img/dot.png" alt="">
+
+            <p></p>
+
+
+            <!-- 更新ボタン -->
+            <button class="kousin">re.Pray</button>
+
+        </center>
+
+        <script src="../js/jquery-3.3.1.min.js"></script>
+        <script src="../js/BlackJack.js"></script>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: #424242;
+    font-family: "Roboto", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",
+    "游ゴシック", YuGothic, "Meiryo UI", Meiryo, "ＭＳ ゴシック", Arial,
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.title_1{
+    color: #0e0002;
+}
+
+.Dealer_name{
+    color: #030001;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Player_name{
+    color: #030001;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.my_card p{
+    display: inline-block;
+}
+
+.title_1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-size: 40px;
+    letter-spacing: 0.75em;
+    font-weight: bold;
+    color: #cca31c;/*文字色*/
+    background: #105652;
+    border: solid 3px #cca31c;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
+.start_1{
+    color: azure;
+    background-color:#B91646;
+    border-radius: 10px;
+    border: 6px ridge #B91646;
+    font-size:30px;
+}
+
+
+.my_hit{
+    color: azure;
+    background-color:#B91646;
+    border-radius: 10px;
+    border: 6px ridge #B91646;
+    font-size:30px;
+    
+}
+
+.my_stand{
+    color: azure;
+    background-color:#B91646;
+    border-radius: 10px;
+    border: 6px ridge #B91646;
+    font-size:30px;
+}
+
+.first_line{
+    border-top: 3px double #ccc;
+}
+
+.end_line{
+    border-top: 3px double #ccc;
+}
+
+.kousin{
+    color: azure;
+    background-color:#B91646;
+    border-radius: 10px;
+    border: 6px ridge #B91646;
+    font-size:30px;
+    
+}
